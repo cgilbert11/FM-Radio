@@ -39,10 +39,6 @@ sudo make install
 sudo ldconfig
 echo 'blacklist dvb_usb_rtl28xxu' | sudo tee – append /etc/modprobe.d/blacklist-dvb_usb_rtl28xxu.conf
 
-echo "Completing Audio Mapping"
-sudo apt-get install pulseaudio pavucontrol mplayer -y
-pacmd load-module module-null-sink sink_name=Virtual_Sink sink_properties=device.description=Virtual_Sink
-
 echo "Done with SDR Setup!"
 echo "Rebooting Now"
 
