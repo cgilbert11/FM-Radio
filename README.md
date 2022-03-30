@@ -22,3 +22,5 @@ cd FM-Radio
 - Receiver Options:  
 	- Mode: WFM
 - Tune to a station you know, or look for a big spike on GQRX and click on it to listen in
+
+- To listen, just plug in headphones and sound should come out
