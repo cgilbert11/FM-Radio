@@ -5,7 +5,7 @@
 ```
 git clone https://github.com/cgilbert11/FM-Radio
 cd FM-Radio
-./install.sh
+sh install.sh
 ```
 ### Setting up
 
